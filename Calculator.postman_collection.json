@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "0ec6a42a-0af0-4fd5-aadc-6f7482be6f18",
+		"name": "Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/calculator/about",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/calculator/add/10/100",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calculator",
+						"add",
+						"10",
+						"100"
+					]
+				},
+				"description": "This is the 'About' page."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/calculator/add/10/100",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/calculator/sub/50/10",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calculator",
+						"sub",
+						"50",
+						"10"
+					]
+				},
+				"description": "This is the 'add' page. Value also be included in the URL."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/calculator/sub/50/10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/calculator/sub/50/10",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calculator",
+						"sub",
+						"50",
+						"10"
+					]
+				},
+				"description": "This is the 'Subtract' page. Value is included in the URL and the answer is being display."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/calculator/multi/30/100",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/calculator/multi/30/100",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calculator",
+						"multi",
+						"30",
+						"100"
+					]
+				},
+				"description": "This is the 'Multiply' page. Values is included will be display."
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/calculator/div/20/5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:3000/calculator/div/20/5",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calculator",
+						"div",
+						"20",
+						"5"
+					]
+				},
+				"description": "This is the 'Division' page. Values is included in the URL."
+			},
+			"response": []
+		}
+	]
+}
